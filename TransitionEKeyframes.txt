@@ -1,0 +1,8 @@
+1 - Transition
+Transition (animação por estado)
+A transição acontece quando algo muda de um estado para outro
+
+2 - Keyframes
+Keyframes (animação autônoma)
+A animação acontece sozinha.
+
