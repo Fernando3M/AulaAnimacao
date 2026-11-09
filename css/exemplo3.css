@@ -1,17 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #0f172a;
-}
-
+/* Animação */
 @keyframes pular{
     from{
         transform: translateY(0);
@@ -25,6 +12,5 @@ body{
     height: 50px; 
     border-radius: 50%;/* Deixa cmo circulo */
     background: linear-gradient( #7dffc9, #00cc8f 60%);
-
     animation: pular 1s cubic-bezier(.4, 0, .6, 1 ) infinite alternate; 
 }

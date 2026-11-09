@@ -1,17 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #0f172a;
-}
-
 /* Animação */
 @keyframes girar{
     from{
@@ -27,6 +13,5 @@ body{
     border: 6px solid #1e293b;
     border-top-color: #00cc8f;
     border-radius: 50px;
-
     animation: girar 1s linear infinite;
 }
